@@ -87,11 +87,14 @@ procedure TF_Cadastro.BCadastroClienteClick(Sender: TObject);
 begin
    Application.CreateForm(TF_Cliente,F_Cliente); //Chama o formulário de cadastro de cliente
    F_Cliente.Show;
+   // teste git
 end;
 
 procedure TF_Cadastro.BSairdoCadastroClick(Sender: TObject);
 begin
   Close;
+
+  // fecha o form
 end;
 
 procedure TF_Cadastro.BCadastroClienteKeyPress(Sender: TObject;

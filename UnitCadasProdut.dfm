@@ -38,7 +38,7 @@ object F_Cadastro: TF_Cadastro
       end>
   end
   object BCadastroCliente: TButton
-    Left = 136
+    Left = 16
     Top = 0
     Width = 193
     Height = 105
@@ -54,8 +54,8 @@ object F_Cadastro: TF_Cadastro
     OnKeyPress = BCadastroClienteKeyPress
   end
   object BSairdoCadastro: TButton
-    Left = 288
-    Top = 152
+    Left = 639
+    Top = 0
     Width = 177
     Height = 105
     Caption = 'Sair do Cadastro'
@@ -70,7 +70,7 @@ object F_Cadastro: TF_Cadastro
     OnKeyPress = BSairdoCadastroKeyPress
   end
   object BLendArquiGranBd: TButton
-    Left = 408
+    Left = 248
     Top = 0
     Width = 345
     Height = 105
